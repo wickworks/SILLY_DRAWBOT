@@ -1,0 +1,18 @@
+//  .connection('m2x', {adaptor: 'm2x', apiKey: '908938b30e54bc01871e58357b66893b', feedId: 'fb4c3e74939a003ed208f8e1d59e659d' })
+
+
+//  .device('m2x', { driver: 'm2x' })
+
+/**
+  .work(function(my) {
+    var count = 1;
+
+    every(2000, function() {
+      my.m2x.push('Left_wheel_steps', { value: count++ });
+    });
+
+    my.m2x.subscribe('Left_wheel_steps', function(data) {
+      console.log("Latest value from M2X: " + data);
+    });
+  });
+**/

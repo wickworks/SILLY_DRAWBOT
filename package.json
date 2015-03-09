@@ -1,0 +1,14 @@
+{
+  "name": "TouchNotifier",
+  "description": "",
+  "version": "0.0.0",
+  "main": "stepper2.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+      "socket.io":"latest",
+      
+      "cylon-intel-iot": "0.5.0"
+  }
+}
